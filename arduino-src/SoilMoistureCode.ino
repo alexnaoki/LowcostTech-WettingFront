@@ -54,13 +54,6 @@ const int chipSelect = 10;
 void setup() {
 
   Serial.begin(9600);
-
-  // -------------TESTE-------------
-
-
-
-  // -------------TESTE-------------
-
   
   pinMode(pin1, OUTPUT);
   pinMode(pin2, OUTPUT);
@@ -88,6 +81,8 @@ void setup() {
   }
   if (!rtc.isrunning()) {
     Serial.println("RTC lost power, lets set the time!");
+    rtc.adjust(DateTime(F(__DATE__), F(__TIME__)));
+
   }
 
   Serial.println("Card present and starting measurements");
