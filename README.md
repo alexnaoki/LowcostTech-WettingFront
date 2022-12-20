@@ -1,7 +1,9 @@
 # Lowcost Arduino to monitor wetting front
 
 
-[![DOI](https://zenodo.org/badge/580037812.svg)](https://zenodo.org/badge/latestdoi/580037812)
+
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7463511.svg)](https://doi.org/10.5281/zenodo.7463511)
 
 
 ----------------------------------
